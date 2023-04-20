@@ -1,5 +1,3 @@
-const { timeStamp } = require("console");
-
 const addDateSuffix =(date)=>{
     let dateStr = date.toString();
 
@@ -20,8 +18,8 @@ const addDateSuffix =(date)=>{
 module.exports = (
     timestamp,
     {monthLength = 'short', dateSuffix = true} = {}
-) =>{
-    const month = {
+) => {
+    const months = {
         0: monthLength === 'short' ? 'Jan' : 'January',
         1: monthLength === 'short' ? 'Feb' : 'February',
         2: monthLength === 'short' ? 'Mar' : 'March',
@@ -35,7 +33,7 @@ module.exports = (
         10: monthLength === 'short' ? 'Nov' : 'November',
         11: monthLength === 'short' ? 'Dec' : 'December',
     };
-    const dateObj = new Date(timeStamp);
+    const dateObj = new Date(timestamp);
     const formattedMonth = months[dateObj.getMonth()];
 
     const dayOfMonth = dateSuffix
