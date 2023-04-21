@@ -7,7 +7,6 @@ Video walkthrough: https://drive.google.com/file/d/1zHRmYsYoAbwmX6u5_zf88hxCIGx1
 An API for a social network web app where users can share thoughts and react to their friends' thoughts.
 
 ## Packages Used
-- Node.js
 - Express.js
 - MongoDB
 - Mongoose
