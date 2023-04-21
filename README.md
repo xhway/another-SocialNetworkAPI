@@ -22,5 +22,7 @@ You will need to install the above packages as well.
 After installation start the app using npm start
 
 ### Insomnia Screenshot
+Test app in Insomnia to make sure the routes work properly. 
+
 <img width="2198" alt="Screen Shot 2023-04-20 at 9 08 48 PM" src="https://user-images.githubusercontent.com/118576289/233517410-c9d01c0d-b8f4-4ad2-a40f-9403f28d442b.png">
 
